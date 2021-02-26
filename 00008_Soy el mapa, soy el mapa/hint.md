@@ -1,0 +1,1 @@
+¿Quizá necesites _agregar_ ganancias a una lista? ¿Te acordas de `list.append`? :thought_balloon:

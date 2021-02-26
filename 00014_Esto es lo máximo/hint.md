@@ -1,0 +1,1 @@
+Podés usar la función `ganancias` que hiciste antes. :wink:

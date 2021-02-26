@@ -1,0 +1,14 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: meses_afortunados
+  inspection: Uses:meses
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: meses_afortunados
+  inspection: Uses:afortunados
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Intransitive:meses_afortunados
+  inspection: Not:UsesIf
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: meses_afortunados
+  inspection: Not:UsesForLoop
