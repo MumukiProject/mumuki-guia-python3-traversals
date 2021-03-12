@@ -13,8 +13,8 @@ def largos(palabras):
 Sin embargo, también podríamos hacerlo de esta manera utilizando listas por comprensión:
 
 ``` python
-ム [len(palabra) for palabra in palabras]
-[5, 3, 11]
+def largos(palabras):
+  return [len(palabra) for palabra in palabras]
 ```
 
 > Redefiní la función `meses` para que haga lo mismo que antes pero utilizando listas por comprensión. 
