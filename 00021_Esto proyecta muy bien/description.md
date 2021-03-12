@@ -1,0 +1,1 @@
+Un map que devuelva una lista con el doble de las ganancias
