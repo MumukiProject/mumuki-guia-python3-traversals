@@ -1,1 +1,0 @@
-En la función `meses` es necesario _mapear_, en `afortunados` _filtrar_ y en `meses_afortunados` tenés que usar las dos anteriores. :wink:
