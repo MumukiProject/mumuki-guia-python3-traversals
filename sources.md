@@ -1,1 +1,0 @@
-Guía basada inicialmente en https://github.com/MumukiProject/mumuki-guia-python-practica-de-listas-y-registros 
