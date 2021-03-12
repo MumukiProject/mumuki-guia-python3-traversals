@@ -5,7 +5,4 @@ expectations:
   inspection: DeclaresFunction:meses
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: meses
-  inspection: UsesComprehension
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: meses
   inspection: Not:UsesForeach

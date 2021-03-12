@@ -1,12 +1,16 @@
 En el ejercicio anterior hicimos un mapeo utilizando `for...in`. En Python contamos con otras formas de hacer eso, ¡las listas por comprensión! :star_struck:
 
-Veamos cómo funcionan, si por ejemplo tuviesemos una lista de strings...
+Veamos cómo funcionan, si a partir de una lista de strings quisieramos obtener una lista con los largos de cada uno, podríamos definir:
 
 ``` python
-ム palabras = ["mapeo", "por", "comprensión"]
+def largos(palabras):
+  largos = []
+  for palabra in palabras:
+    list.append(largos, len(palabra))
+  return largos
 ```
 
-... y quisieramos obtener una lista con los largos de cada string, podríamos escribir:
+Sin embargo, también podríamos hacerlo de esta manera utilizando listas por comprensión:
 
 ``` python
 ム [len(palabra) for palabra in palabras]
