@@ -1,0 +1,1 @@
+Hacer un filter por comprensión
