@@ -1,0 +1,1 @@
+Un filter que devuelva que meses de los del balance tienen 31 días (se hace con in)
