@@ -5,4 +5,4 @@ expectations:
   inspection: DeclaresFunction:ganancia_total
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: ganancia_total
-  inspection: UsesForLoop
+  inspection: UsesForeach
