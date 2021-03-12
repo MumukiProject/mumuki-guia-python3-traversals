@@ -1,1 +1,1 @@
-Lo importante en este ejercicio es pensar cuál es el valor inicial de `cantidad` y cuándo incrementa ese valor.
+Lo importante en este ejercicio es inicializar una variable local e incrementarla solo cuando corresponda.
