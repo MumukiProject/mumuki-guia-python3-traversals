@@ -1,5 +1,6 @@
-Lamentablemente no se puede usar la función `promedio` con nuestra lista de diccionarios :disappointed:. Lo que necesitamos es una lista que tenga solo las ganancias de cada balance. Para ello debemos transformar, o _mapear_, cada elemento de la lista. 
-> Completá la función `ganancias` que toma una lista de balances y devuelve una lista que posea solo las ganancias de cada uno. 
+Más allá de las ganancias acumuladas o los balances positivos, Ana quisiera poder obtener todas las ganancias a partir de una lista de balances. Para ello debemos transformar, o _mapear_, cada elemento de la lista. 
+
+> Definí la función `ganancias` que toma una lista de balances y devuelve una lista que posea solo las ganancias de cada uno. 
 >
 > ```python
 > ム ganancias([

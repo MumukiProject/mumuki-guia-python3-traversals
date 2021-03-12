@@ -1,1 +1,3 @@
-¿Quizá necesites _agregar_ ganancias a una lista? ¿Te acordas de `list.append`? :thought_balloon:
+_¿Y ahora con qué valor inicializamos la variable local?_ :thinking:
+
+En este caso te va a servir una lista vacía, ¡pero no te olvides de agregarle elementos! :wink:
