@@ -2,7 +2,7 @@ Ana, contadora de una conocida empresa :office:, tiene diccionarios para represe
 
 ```python
 #En julio ganó $50, en agosto perdió $12, etc.
-v = [
+balances_ultimo_semestre = [
 	{ "mes": "julio", "ganancia": 50 }, 
 	{ "mes": "agosto", "ganancia": -12 }, 
 	{ "mes": "septiembre", "ganancia": 1000 }, 
