@@ -1,4 +1,4 @@
-¿Sabes cuántos tienen 28 días? :thinking:
+¿Sabes cuántos meses tienen 28 días? :thinking:
 
 ¡Todos! :stuck_out_tongue_winking_eye:
 
