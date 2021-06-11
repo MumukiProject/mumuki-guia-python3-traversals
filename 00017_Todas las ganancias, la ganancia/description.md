@@ -23,6 +23,6 @@ Dicho esto, Ana necesita saber la ganancia acumulada de un conjunto de balances.
 > Definí la función `ganancia_total` que dado una lista de balances cualquiera nos devuelva la suma de todas:
 >
 ```python
-ム ganancia_total(balances_de_un_periodo):
+ム ganancia_total(balances_de_un_periodo)
 1538
 ```
