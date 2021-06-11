@@ -2,7 +2,7 @@ Ana, contadora de una conocida empresa :office:, tiene diccionarios para represe
 
 ```python
 #En julio ganó $50, en agosto perdió $12, etc.
-balances_ultimo_semestre = [
+v = [
 	{ "mes": "julio", "ganancia": 50 }, 
 	{ "mes": "agosto", "ganancia": -12 }, 
 	{ "mes": "septiembre", "ganancia": 1000 }, 
@@ -23,6 +23,6 @@ Dicho esto, Ana necesita saber la ganancia acumulada de un conjunto de balances.
 > Definí la función `ganancia_total` que dado una lista de balances cualquiera nos devuelva la suma de todas:
 >
 ```python
-ム ganancia_total(balances_de_un_periodo)
+ム ganancia_total(balances_ultimo_semestre)
 1538
 ```
