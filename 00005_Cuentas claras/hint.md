@@ -1,1 +1,1 @@
-Lo importante en este ejercicio es inicializar una variable local e incrementarla solo cuando corresponda. Para eso vas a tener que usar un `if`. :nerd:
+Beware to initialize a local variable and increment it only when appropriate! For that you will have to use an `if`. :nerd:

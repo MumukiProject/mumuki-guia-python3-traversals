@@ -1,18 +1,18 @@
 
-  def test_cantidad_de_balances_positivos_con_una_lista_con_un_solo_balance_positivo_es_uno(self):
-    self.assertEqual(cantidad_de_balances_positivos([{ "mes": "noviembre", "ganancia": 5 }]), 1)
+  def test_positive_balances_count_of_a_list_with_one_positive_balance_is_one(self):
+    self.assertEqual(positive_balances_count([{ "month": "November", "profit": 5 }]), 1)
 
-  def test_cantidad_de_balances_positivos_con_una_lista_con_dos_balances_positivos_es_dos(self):
-    self.assertEqual(cantidad_de_balances_positivos([{ "mes": "marzo", "ganancia": 8 }, { "mes": "agosto", "ganancia": 10 }]), 2)
+  def test_positive_balances_count_of_a_list_with_two_positive_balances_is_two(self):
+    self.assertEqual(positive_balances_count([{ "month": "March", "profit": 8 }, { "month": "August", "profit": 10 }]), 2)
 
-  def test_cantidad_de_balances_positivos_de_la_lista_vacia_es_cero(self):
-    self.assertEqual(cantidad_de_balances_positivos([]), 0)
+  def test_positive_balances_count_an_empty_list_is_zero(self):
+    self.assertEqual(positive_balances_count([]), 0)
 
-  def test_cantidad_de_balances_positivos_cuando_todos_los_balances_tuvieron_ganancia_cero_es_cero(self):
-    self.assertEqual(cantidad_de_balances_positivos([{ "mes": "marzo", "ganancia": 0 }, { "mes": "agosto", "ganancia": 0 }]), 0)
+  def test_positive_balances_count_when_all_balances_had_zero_profit_is_zero(self):
+    self.assertEqual(positive_balances_count([{ "month": "March", "profit": 0 }, { "month": "August", "profit": 0 }]), 0)
 
-  def test_cantidad_de_balances_positivos_con_tres_balances_positivos_y_uno_negativo_da_tres(self):
-    self.assertEqual(cantidad_de_balances_positivos([{ "mes": "enero", "ganancia": 10 }, { "mes": "febrero", "ganancia": -10 }, { "mes": "marzo", "ganancia": 2 }, { "mes": "abril", "ganancia": 100 }]), 3)
+  def test_positive_balances_count_with_three_positive_balances_and_one_negative_is_three(self):
+    self.assertEqual(positive_balances_count([{ "month": "January", "profit": 10 }, { "month": "February", "profit": -10 }, { "month": "March", "profit": 2 }, { "month": "April", "profit": 100 }]), 3)
   
-  def test_cantidad_de_balances_positivos_cuando_todos_los_meses_tienen_ganancia_negativa_es_cero(self):
-    self.assertEqual(cantidad_de_balances_positivos([{ "mes": "enero", "ganancia": -1 }, { "mes": "febrero", "ganancia": -2 }, { "mes": "marzo", "ganancia": -3 }]), 0)
+  def test_positive_balances_count_when_all_balances_had_negative_profit_is_zero(self):
+    self.assertEqual(positive_balances_count([{ "month": "January", "profit": -1 }, { "month": "February", "profit": -2 }, { "month": "March", "profit": -3 }]), 0)
