@@ -1,3 +1,3 @@
-¡Excelente! :star_struck:
+Excellent! :star_struck:
 
-En este caso como queríamos obtener una sumatoria, nuestra variable tenía que inicializarse en 0 ya que es el valor neutro de la suma. Si por ejemplo quisieramos hacer una productoria (lo mismo que la sumatoria pero multiplicando) deberíamos inicializar nuestra variable en 1. No siempre es fácil darse cuenta qué valor inicial debemos utilizar, pero es muy importante que lo pensemos antes de encarar el `for...in`. :hugging:
+In this case, since we wanted to obtain a sum, our variable had to be initialized to 0 since it is the neutral value of addition. If, for example, we wanted to perform a product operation (similar to sum, but multiplying) we should initialize our variable to 1. It is not always easy to determine the appropriate initial value, but it is very important to consider it starting the `for.. .in`. :hugging:
