@@ -2,7 +2,7 @@
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: DeclaresFunction:meses
+  inspection: Declares:months
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: meses
+  binding: months
   inspection: Not:UsesForeach
