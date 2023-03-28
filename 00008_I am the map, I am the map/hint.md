@@ -1,1 +1,1 @@
-_And with what value shall we now initialize our accumulator?_ :thinking: In this case, an empty list will suffice, but don't forget to add elements to it! :wink:
+_And with what value shall we now initialize our accumulator?_ :thinking: In this case, an empty list will suffice, but don't forget to add elements to it! :wink: 

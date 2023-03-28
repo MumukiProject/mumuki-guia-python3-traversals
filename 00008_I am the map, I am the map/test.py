@@ -1,9 +1,9 @@
 
-  def test_ganancias_de_los_balances_de_un_periodo_de_tres_meses_me_devuelve_solo_los_valores_de_las_ganancias_de_esos_tres_meses(self):
-	  self.assertEqual(ganancias([{ "mes": "marzo", "ganancia": 10 }, { "mes": "agosto", "ganancia": 2 }, { "mes": "septiembre", "ganancia":0 }]), [10, 2, 0])
+  def test_profits_of_three_months_balances_returns_only_three_profits(self):
+    self.assertEqual(profits([{ "month": "March", "profit": 10 }, { "month": "August", "profit": 2 }, { "month": "September", "profit":0 }]), [10, 2, 0])
 
-  def test_ganancias_de_los_balances_de_un_periodo_de_cuatro_meses_me_devuelve_solo_los_valores_de_las_ganancias_de_esos_cuatro_meses(self):
-	  self.assertEqual(ganancias([{ "mes": "marzo", "ganancia": 10 }, { "mes": "agosto", "ganancia": 2 }, { "mes": "septiembre", "ganancia":0 }, { "mes": "diciembre", "ganancia": 8 }]), [10, 2, 0, 8])
+  def test_profits_of_four_months_balances_returns_only_four_profits(self):
+    self.assertEqual(profits([{ "month": "March", "profit": 10 }, { "month": "August", "profit": 2 }, { "month": "September", "profit":0 }, { "month": "December", "profit": 8 }]), [10, 2, 0, 8])
 
-  def test_ganancias_de_los_balances_de_un_periodo_de_dos_meses_me_devuelve_solo_los_valores_de_las_ganancias_de_esos_dos_meses(self):
-	  self.assertEqual(ganancias([{ "mes": "marzo", "ganancia": 8 }, { "mes": "agosto", "ganancia": 7 }]), [8,7])
+  def test_profits_of_two_months_balances_returns_only_two_profits(self):
+    self.assertEqual(profits([{ "month": "March", "profit": 8 }, { "month": "August", "profit": 7 }]), [8,7])
