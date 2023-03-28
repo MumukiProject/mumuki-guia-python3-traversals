@@ -2,7 +2,7 @@
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: DeclaresFunction:ganancia_total
+  inspection: DeclaresFunction:total_profit
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: ganancia_total
+  binding: total_profit
   inspection: UsesForeach

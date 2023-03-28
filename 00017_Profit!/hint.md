@@ -1,0 +1,1 @@
+Our old friend `for...in` and a local accumulator variable will help us with this task. It's important to think of which value should be used to initialize it and what must be done in each iteration. :relaxed:
