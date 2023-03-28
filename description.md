@@ -1,1 +1,1 @@
-En lecciones anteriores definimos funciones, usamos diccionarios y listas. Ahora que tenemos todas esas herramientas, llega el momento de combinarlas y aprender a hacer cosas más complejas recorriéndolas. ¡Acompañanos! 
+In the previous lessons we defined functions, used dictionaries and lists. :tools:️ Now that we have all these tools, it's time to combine them and learn how to do more complex things by iterating through them. Join us!
