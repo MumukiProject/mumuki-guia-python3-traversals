@@ -1,1 +1,1 @@
-La variable local que utilizaste es lo que en programación se conoce como _contador_, una variable que se incrementa cada vez que hacemos algo dentro de un `for...in` o solo aquellas veces que se cumpla una condición (como en este caso). :wink:
+The local variable you used is what is known in programming as a _counter_, a variable that increments each time we do something within a `for...in` or only when a condition is met (as in this case). :wink:
