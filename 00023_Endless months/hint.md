@@ -1,0 +1,1 @@
+In case of doubt, the months with 31 days are January, March, May, July, August, October and December. :calendar_spiral:
