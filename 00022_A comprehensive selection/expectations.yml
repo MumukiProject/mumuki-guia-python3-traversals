@@ -2,7 +2,10 @@
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: DeclaresFunction:afortunados
+  inspection: Declares:lucky
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: afortunados
+  binding: "*"
+  inspection: DeclaresComputationWithArity1:lucky
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: lucky
   inspection: Not:UsesForeach
