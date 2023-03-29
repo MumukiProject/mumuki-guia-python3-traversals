@@ -4,5 +4,8 @@ expectations:
   binding: "*"
   inspection: Declares:months
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: DeclaresComputationWithArity1:months
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: months
   inspection: Not:UsesForeach
