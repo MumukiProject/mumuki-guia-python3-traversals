@@ -12,3 +12,6 @@ expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Intransitive:lucky_months
   inspection: Not:UsesForeach
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: lucky_months
+  inspection: Not:UsesComprehension
