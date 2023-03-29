@@ -4,5 +4,8 @@ expectations:
   binding: "*"
   inspection: Declares:total_profit
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: DeclaresComputationWithArity1:total_profit
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: total_profit
   inspection: UsesForeach
