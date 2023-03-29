@@ -27,7 +27,7 @@ As you can see, list comprehensions are a compact way to do simple iterations. T
 [ some_transformation(element) for element in sequence ]
 ```
 
-⏩ Think of them as a shortcut to a mapping traversal. But the nicest thing is that comprehensions - unlike `for..in` control structure - are expressions, meaning they can be used whenever a value is expected 😮 - in a `return`, in a variable assignment, as an function invocation argument or even in the console: 
+:fast_forward: Think of them as a shortcut to a mapping traversal. But the nicest thing is that comprehensions - unlike `for..in` control structure - are expressions, meaning they can be used whenever a value is expected :open_mouth: - in a `return`, in a variable assignment, as an function invocation argument or even in the console: 
 
 ```python
 ム[ 1930 + 10 * decade for decade in range(0, 10) ]
