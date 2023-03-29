@@ -1,0 +1,1 @@
+Again, you'll have to start with an empty list. But unlike when we just mapped list elements, here you shouldn't add elements in every iteration, but only in certain cases. :eyes: What about using an `if`? :wink:
