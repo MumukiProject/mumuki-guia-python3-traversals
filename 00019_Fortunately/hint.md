@@ -1,0 +1,1 @@
+In this exercise you won't have to do a `for...in`, just call `months` and `lucky` appropriately. You can look at the `Library` in order to remember them. :relaxed:

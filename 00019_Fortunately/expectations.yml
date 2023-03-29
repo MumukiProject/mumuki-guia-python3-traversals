@@ -2,10 +2,13 @@
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: DeclaresFunction:meses_afortunados
+  inspection: Declares:lucky_months
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: Intransitive:meses_afortunados
+  binding: "*"
+  inspection: DeclaresComputationWithArity1:lucky_months
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Intransitive:lucky_months
   inspection: Not:UsesIf
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: Intransitive:meses_afortunados
+  binding: Intransitive:lucky_months
   inspection: Not:UsesForeach
