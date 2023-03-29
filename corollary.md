@@ -1,3 +1,3 @@
-En esta última lección te reencontraste con el `for...in` y resolviste problemas más complejos con él :exploding_head:. Más especificamente creaste funciones para filtrar y/o transformar los elementos de una lista. 
+In this last lesson you met the `for...in` again and used it to solve more complex problems :exploding_head:. More precisely you created functions to filter and/or transform the elements of a list.
 
-¡Muy buen trabajo! :thumbsup:
+Great work! :thumbsup:
