@@ -1,0 +1,17 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: Declares:lucky_months
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: DeclaresComputationWithArity1:lucky_months
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: lucky_months
+  inspection: Not:Uses:months
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: lucky_months
+  inspection: Not:Uses:lucky
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: lucky_months
+  inspection: Not:UsesForeach
