@@ -12,7 +12,7 @@
     self.assertEqual(positive_balances_count([{ "month": "March", "profit": 0 }, { "month": "August", "profit": 0 }]), 0)
 
   def test_positive_balances_count_with_three_positive_balances_and_one_negative_is_three(self):
-    self.assertEqual(positive_balances_count([{ "month": "January", "profit": 10 }, { "month": "February", "profit": -10 }, { "month": "March", "profit": 2 }, { "month": "April", "profit": 100 }]), 3)
+    self.assertEqual(positive_balances_count([{ "month": "January", "profit": 10 }, { "month": "February", "profit": -14 }, { "month": "March", "profit": 2 }, { "month": "April", "profit": 100 }]), 3)
   
   def test_positive_balances_count_when_all_balances_had_negative_profit_is_zero(self):
     self.assertEqual(positive_balances_count([{ "month": "January", "profit": -1 }, { "month": "February", "profit": -2 }, { "month": "March", "profit": -3 }]), 0)
