@@ -6,4 +6,4 @@ rules:
     - Positive balances count does not return a list
   then: your current definition of `positive_balances_count` is returning a `list`,
     but it should return an `int` - that is, a number that represents the **amount**
-    of  balances that match the condition. Perhaps `len` may help her
+    of  balances that match the condition. Perhaps `len` may help
