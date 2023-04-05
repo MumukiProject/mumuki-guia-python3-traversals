@@ -3,7 +3,7 @@ rules:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
     these_tests_failed:
-    - Positive balances count does not return a list
+    - Positive balances count does not return a list. Perhaps `len` may help here!
   then: your current definition of `positive_balances_count` is returning a `list`,
     but it should return an `int` - that is, a number that represents the **amount**
     of  balances that match the condition
