@@ -6,3 +6,6 @@ expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
   inspection: DeclaresComputationWithArity1:positive_balances_count
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: positive_balances_count
+  inspection: UsesForeach
