@@ -1,6 +1,6 @@
 Now that we know how to do mappings, let's practice! :muscle:
 
-> Define the function `months` that, given a list of dictionaries, returns a list of months. :calendar:
+> :calendar: Define the function `months` that, given a list of dictionaries, returns a list of months. 
 >
 ```python
 ム months([
