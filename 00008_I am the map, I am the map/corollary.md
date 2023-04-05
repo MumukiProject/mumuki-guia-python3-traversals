@@ -2,8 +2,8 @@ Excellent! :clap: Now we know how to transform each element of a list to get a n
 
 ```python
 def map_something(list):
-	new_list = []
-	for element in list:
+  new_list = []
+  for element in list:
     list.append(new_list, some_transformation(element))
   return new_list
 ```
