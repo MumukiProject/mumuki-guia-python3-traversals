@@ -16,3 +16,13 @@
   
   def test_positive_balances_count_when_all_balances_had_negative_profit_is_zero(self):
     self.assertEqual(positive_balances_count([{ "month": "January", "profit": -1 }, { "month": "February", "profit": -2 }, { "month": "March", "profit": -3 }]), 0)
+      
+  def test_positive_balances_count_does_not_return_a_list(self):
+    try:
+      result = positive_balances_count(
+        [{ "month": "January", "profit": -1 }, { "month": "February", "profit": -2 }]
+      )
+    except Exception:
+      result = None
+  
+    self.assertNotEqual(type(result), list, "positive_balances_count should return a number of items, not a list")
