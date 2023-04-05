@@ -9,3 +9,6 @@ expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: positive_balances_count
   inspection: UsesForeach
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: positive_balances_count
+  inspection: UsesIf
